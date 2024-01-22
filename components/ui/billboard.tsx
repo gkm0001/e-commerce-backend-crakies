@@ -8,7 +8,9 @@ const Billboard: React.FC<BillboardProps> = ({ data }) => {
   // Check if data is null or undefined
   if (!data) {
     // Handle the case where data is null or undefined
-    return <div>No data available</div>;
+    return <div className="flex items-center justify-center h-screen">
+    <h1 className="text-4xl font-bold">Welcome to Crackies</h1>
+  </div>
   }
 
   return (
